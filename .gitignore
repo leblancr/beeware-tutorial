@@ -1,3 +1,78 @@
-.idea/
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+poetry.lock
+
+# Poetry virtual environments folder (optional, if you use .venv)
+.venv/
+
+# Briefcase build/dist folders
+build/
+dist/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Others
+*.log
